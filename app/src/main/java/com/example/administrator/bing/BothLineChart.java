@@ -1,4 +1,4 @@
-package com.shenzhen_xiekang.healthmachinebluetooth10.login.Uiview;
+package com.example.administrator.bing;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -123,6 +123,7 @@ public class BothLineChart extends View {
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
 
+        Log.e("wangbin","onDraw");
 //画x轴线
         canvas.drawLine(leftMargin-20,mHeight-mBottomInterval,mWidth-rightMargin,mHeight-mBottomInterval,mPaintText);
         //画y轴线
