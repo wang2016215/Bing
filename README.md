@@ -2,8 +2,10 @@
 Rxjava2.0 +retrofit2 +okhttp3 网络请求封装
 
 #使用方法
+
 #step: 1 初始化
-		//在baseApplication 初始化
+
+	//在baseApplication 初始化
 	   @Override
 	    public void onCreate() {
 	        super.onCreate();
