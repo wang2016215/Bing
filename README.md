@@ -1,8 +1,11 @@
 # Bing
-Rxjava2.0 +retrofit2 +okhttp3 网络请求封装
+Rxjava2.0 +retrofit2 +okhttp3 网络请求封装 支持链式调用
 
-#使用方法
-#step: 1 初始化
+# 使用方法
+
+
+
+# step: 1 初始化
 		//在baseApplication 初始化
 	   @Override
 	    public void onCreate() {
@@ -14,7 +17,7 @@ Rxjava2.0 +retrofit2 +okhttp3 网络请求封装
 	             .configure();
 	    }
 
-#step:2 测试
+# step:2 测试
 	public class MainActivity extends BingBaseAcitivity {
 
 
@@ -98,7 +101,7 @@ Rxjava2.0 +retrofit2 +okhttp3 网络请求封装
 继承BingBaseAcitivity主要是为了使用rxjava 生命周期管理也可不继承
 
 
-#step:3 添加权限
+# step:3 添加权限
 
    	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
