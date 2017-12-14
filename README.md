@@ -17,6 +17,7 @@ Rxjava2.0 +retrofit2 +okhttp3 网络请求封装
 	    }
 
 #step:2 测试
+
 	public class MainActivity extends BingBaseAcitivity {
 
 
