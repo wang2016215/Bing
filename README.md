@@ -1,5 +1,5 @@
 # Bing
-Rxjava2.0 +retrofit2 +okhttp3 网络请求封装
+Rxjava2.0 +retrofit2 +okhttp3 网络请求封装 链式调用使用方便
 
 # 使用方法
 
