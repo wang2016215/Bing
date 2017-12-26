@@ -92,4 +92,9 @@ public class MainActivity extends BingBaseAcitivity {
                     }
                 });
     }
+
+    public void testDownload(){
+
+    }
+
 }

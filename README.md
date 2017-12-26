@@ -1,12 +1,15 @@
 # Bing
-Rxjava2.0 +retrofit2 +okhttp3 网络请求封装 支持链式调用
+Rxjava2.0 +retrofit2 +okhttp3 网络请求封装 支持链式调用。
+默认 apiService 支持 get ，post，put，delete，download，upload ，和post 参数是json 等请求，也可自定义APIService高度解耦
 
 # 使用方法
 
-
-
 # step: 1 初始化
-		//在baseApplication 初始化
+
+
+
+	//在baseApplication 初始化
+
 	   @Override
 	    public void onCreate() {
 	        super.onCreate();
@@ -16,8 +19,12 @@ Rxjava2.0 +retrofit2 +okhttp3 网络请求封装 支持链式调用
 	             .withLoaderDelayed(1000)//设置超时时间
 	             .configure();
 	    }
-
+ 
 # step:2 测试
+
+
+
+
 	public class MainActivity extends BingBaseAcitivity {
 
 
