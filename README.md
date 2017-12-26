@@ -19,7 +19,7 @@ Rxjava2.0 +retrofit2 +okhttp3 网络请求封装 支持链式调用。
 	             .withLoaderDelayed(1000)//设置超时时间
 	             .configure();
 	    }
- 
+
 # step:2 测试
 
 
